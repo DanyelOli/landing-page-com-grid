@@ -82,6 +82,16 @@ body {
   background-color: crimson;
 }
 
+@media(max-width: 425px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+}
+
 /* SERVICES */
 
 .services {
